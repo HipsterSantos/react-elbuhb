@@ -1,6 +1,17 @@
 import React from 'react';
 import './style.css';
 
+const RecursiveComponent = ({name,items}) =>{
+const hasChildren = items && items.length;
+return(
+  <>
+  {name}
+  {hasChildren && items.map((item.index)=>(
+    
+  ))}
+  </>
+)
+}
 export default function App() {
   return (
     <div>
